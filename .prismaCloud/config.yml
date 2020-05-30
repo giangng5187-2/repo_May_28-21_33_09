@@ -9,6 +9,7 @@ terraform_version: 0.11
     
 # TF 11 Parameters
 terraform_011_parameters:
+- root_module: scan/aws_two_tier/
   variable_files: 
   - scan/aws_two_tier/aws_vars.tf
   variable_values:
