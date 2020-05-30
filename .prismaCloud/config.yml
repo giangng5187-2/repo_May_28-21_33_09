@@ -4,16 +4,17 @@
 template_type: TF
 
 # TF version
-# terraform_version: 0.11
-terraform_version: 0.12
+terraform_version: 0.11
+# terraform_version: 0.12
     
 # TF 11 Parameters
-terraform_011_parameters:
-  variable_files: 
-  - scan/aws_two_tier/aws_vars.tf
-  variable_values:
-  - name: text
-    value: abc
+# terraform_011_parameters:
+# - root_module: scan/aws_two_tier/
+#   variable_files: 
+#   - scan/aws_two_tier/aws_vars.tf
+#   variable_values:
+#   - name: text
+#     value: abc
 
 # TF 12 Parameters
 terraform_012_parameters:
