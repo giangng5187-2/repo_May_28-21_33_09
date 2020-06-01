@@ -4,8 +4,8 @@
 template_type: TF
 
 # TF version
-# terraform_version: 0.11
-terraform_version: 0.12
+terraform_version: 0.11
+# terraform_version: 0.12
     
 # TF 11 Parameters
 # terraform_011_parameters:
@@ -17,9 +17,9 @@ terraform_version: 0.12
 #     value: abc
 
 # TF 12 Parameters
-terraform_012_parameters:
+# terraform_012_parameters:
 ## No Variables
-- root_module: /scan/terraform12novariablemodule/
+# - root_module: scan/terraform12novariablemodule/
 # - root_module: scan/first-class-expressions/
 # - root_module: scan/for-each-for-resources/
 # - root_module: scan/new-template-syntax/
