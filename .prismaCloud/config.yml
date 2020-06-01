@@ -19,7 +19,7 @@ terraform_version: 0.12
 # TF 12 Parameters
 terraform_012_parameters:
 ## No Variables
-- root_module: scan/terraform12novariablemodule/
+- root_module: /scan/terraform12novariablemodule/
 # - root_module: scan/first-class-expressions/
 # - root_module: scan/for-each-for-resources/
 # - root_module: scan/new-template-syntax/
@@ -44,10 +44,10 @@ terraform_012_parameters:
 #   - 'scan/rich-value-types/network/variables.tf'  
 
 # CFT Parameters
-cft_parameters:
-  variable_values:
-  - name: text
-    value: abc
+# cft_parameters:
+#   variable_values:
+#   - name: text
+#     value: abc
 tags:
 - Org:Engineering
 - Team:Shift_Left
